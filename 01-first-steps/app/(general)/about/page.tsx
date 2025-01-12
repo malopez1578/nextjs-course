@@ -11,10 +11,8 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
     return (
-        <main className="flex flex-col items-center p-24">
-            <span className="text-6xl">About Next.js
-                {new Date().getFullYear()}
-            </span>
-        </main>
+        <span className="text-6xl">About Next.js
+            {new Date().getFullYear()}
+        </span>
     );
 }

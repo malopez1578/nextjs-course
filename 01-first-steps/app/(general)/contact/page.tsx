@@ -6,9 +6,5 @@ export const metadata: Metadata = {
 };
 
 export default function ContactPage() {
-    return (
-        <main className="flex flex-col items-center p-24">
-            <span className="text-6xl">Contact Us</span>
-        </main>
-    );
+    return ( <span className="text-6xl">Contact Us</span> );
 }
