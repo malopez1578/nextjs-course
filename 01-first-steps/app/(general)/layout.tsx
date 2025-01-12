@@ -1,3 +1,4 @@
+import { Navbar } from "@/components";
 
 export default function GeneralLayout({
  children
@@ -6,7 +7,12 @@ export default function GeneralLayout({
 }) {
   return (
     <>
-      {children}
+     <header className="flex justify-center p-4 w-full">
+        <Navbar />
+      </header>
+      <main className="flex flex-col items-center p-24">
+        {children}
+      </main>
     </>
   );
 }
